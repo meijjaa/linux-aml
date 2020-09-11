@@ -1159,7 +1159,7 @@ i2c_ao: i2c@c8100500{ /*I2C-AO*/
 		};
 		map_1: map_1{
 			mapname = "amlogic-remote-2";
-			customcode = <0xfe01>;
+			customcode = <0x7f80>;
 			release_delay = <80>;
 			size  = <53>;
 			keymap = <REMOTE_KEY(0x01, KEY_1)
